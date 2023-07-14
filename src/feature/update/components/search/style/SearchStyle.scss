@@ -1,0 +1,20 @@
+.-t-search-container{
+   height: 100vh;
+   top: 0;
+   z-index: 1000;
+   transition: .5s ease;
+  //  
+  .t-overlay{
+    background-color: rgb(225, 70, 70);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    z-index: 1;
+  }
+  // 
+  .-t-search-content{
+    z-index: 2;
+  }
+}

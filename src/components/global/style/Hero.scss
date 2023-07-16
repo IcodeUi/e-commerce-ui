@@ -1,0 +1,35 @@
+@import "../../../style//Variable.scss";
+.-h-hero-container {
+  width: 100%;
+  overflow: 0 auto;
+  position: relative;
+  .--t-content {
+    padding: 1.5rem $t-px-sm;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1.5em 0;
+    flex-direction: column;
+    overflow: hidden;
+    gap: $t-gap-md;
+    .-t-shop-btn {
+      padding: $t-px-sm 2em;
+      display: inline-block;
+    }
+    // text
+    .-t-head {
+      gap: $t-gap-sm;
+      //
+      .one {
+        font-size: 6em;
+        line-height: 1;
+        @media (max-width: 768px) {
+          font-size: 3em;
+          padding: $t-px-sm;
+        }
+      }
+    }
+  }
+}

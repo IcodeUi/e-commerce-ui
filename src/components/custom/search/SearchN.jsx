@@ -4,10 +4,13 @@ import "../style/SearchN.scss";
 function SearchN({ handleSearch }) {
   return (
     <div className="-t-search-n" onClick={handleSearch}>
-      <label className="icon text-[#888] pr-1">
+      <label className="icon text-[#2a2a2a] pr-1">
         <AiOutlineSearch size={20} />
       </label>
-      <span className="text-sm capitalize text-[#999]">search</span>
+      <span className="text-[.799em] capitalize text-[#606060]">i'm looking for ...</span>
+      <div className="-t-ctrl-k ">
+        <span className="text-sm">Ctrl k</span>
+      </div>
     </div>
   );
 }

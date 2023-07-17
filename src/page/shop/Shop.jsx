@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import ShopList from "../../components/ui/shop/ShopList";
 function Shop() {
   return (
-    <div className=''>Shop</div>
-  )
+    <div className="">
+      <ShopList />
+    </div>
+  );
 }
 
-export default Shop
+export default Shop;

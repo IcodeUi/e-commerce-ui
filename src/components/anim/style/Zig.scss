@@ -1,0 +1,49 @@
+.--t-zig-anim {
+  position: absolute;
+  top: 3.6em;
+  left: auto;
+  z-index: 89;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+     left: auto;
+    }
+  svg {
+    @media (max-width: 768px) {
+      width: 80%;
+    }
+  }
+  #thin {
+    position: relative;
+    overflow: visible;
+    transition: all 2s ease;
+    animation: thine 2s ease-in-out infinite;
+
+    @keyframes thine {
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: rotateX(-150deg);
+      }
+    }
+  }
+
+  //
+  #Zig {
+    position: relative;
+    overflow: visible;
+    transition: all 2s ease;
+    animation: zig 2s ease-in-out infinite;
+    @keyframes zig {
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(-30px);
+      }
+    }
+  }
+}

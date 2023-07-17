@@ -1,0 +1,35 @@
+.--t-anim-two {
+  position: absolute;
+  top: 3.5em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  left: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    left: auto;
+    height: 50%;
+  }
+  svg {
+    overflow: hidden;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    #vector {
+      transition: all 0.3s ease;
+      animation: vic 2s infinite ease-in-out;
+      @keyframes vic {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
+}

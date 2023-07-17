@@ -4,7 +4,7 @@ import Footer from "../global/footer/Footer";
 import "./Layout.scss";
 function Layout({ children }) {
   return (
-    <div className="w-full h-fll">
+    <div className="">
       {<Nav />}
       <main className="--t-max-main-chill">
         {children}

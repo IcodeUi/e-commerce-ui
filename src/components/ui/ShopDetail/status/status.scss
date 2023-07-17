@@ -1,0 +1,25 @@
+@import "../../../../style//Variable.scss";
+.-t-stock-status {
+  margin-top: 0.8em;
+  width: 100%;
+  padding: $t-px-lg;
+  border-radius: 8px;
+  border: 0.1px solid #ccc;
+  // in stock
+  .-t-in-out {
+    width: 100%;
+    margin-bottom: $t-gap-sm;
+  }
+  .-t-qty-list {
+    margin-top: .3em;
+    outline: none;
+    select{
+      border: .1px solid #ccc;
+      outline: none;
+      padding: $t-px-sm;
+      border-radius: 5px;
+    }
+  }
+  .-t-s-btn-con {
+  }
+}

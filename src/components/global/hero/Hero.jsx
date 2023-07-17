@@ -12,7 +12,7 @@ function Hero() {
             and enjoy buying our quality products.
           </p>
         </div>
-        <button className="-t-shop-btn capitalize">shop now</button>
+        <button className="-t-shop-btn  capitalize">shop now</button>
       </div>
     </div>
   );

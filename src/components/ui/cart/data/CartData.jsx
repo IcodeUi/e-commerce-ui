@@ -1,6 +1,6 @@
 import React from "react";
 import "./CartDataStyle.scss";
-import not from "../../../../assets/img/cartnotfound.png";
+import not from "../../../../assets/img/brett-jordan-NIDPm-ltVbA-unsplash.jpg";
 import { FaTrash } from "react-icons/fa";
 function CartData() {
   return (

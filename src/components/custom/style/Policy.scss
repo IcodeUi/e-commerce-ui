@@ -1,0 +1,93 @@
+.-t-policy-menu {
+  overflow: hidden;
+  position: relative;
+  .-t-policy-modal {
+    max-width: 480px;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: #fffaeb;
+    border-radius: 0.8em;
+    flex-direction: column;
+    gap: 0.8em;
+    z-index: 86;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    //
+
+    //
+    .-t-p-terms {
+      display: flex;
+      align-content: center;
+      gap: 0.6em;
+      flex-direction: column;
+      max-height: 90px;
+      overflow-y: auto;
+      margin-bottom: 0.8em;
+      &::-webkit-scrollbar-thumb {
+        background-color: #fef0c3;
+        border-radius: 3em;
+      }
+      .-t-data {
+        padding: 0.3em;
+        background-color: #fdfbf3;
+      }
+    }
+    //
+    .-t-p-refund {
+      display: flex;
+      align-content: center;
+      gap: 0.6em;
+      flex-direction: column;
+      max-height: 90px;
+      margin-top: 1em;
+      overflow-y: auto;
+      &::-webkit-scrollbar-thumb {
+        background-color: #ddcffb;
+        border-radius: 3em;
+      }
+      .-r-data {
+        padding: 0.3em;
+        background-color: #f6f3fd;
+      }
+    }
+    //
+    .-t-p-privacy {
+      display: flex;
+      align-content: center;
+      gap: 0.6em;
+      flex-direction: column;
+      overflow-y: auto;
+      margin-top: 0.8em;
+      max-height: 90px;
+      &::-webkit-scrollbar-thumb {
+        background-color: #c9fcf7;
+        border-radius: 3em;
+      }
+      //
+      .-p-data {
+        padding: 0.3em;
+        background-color: #f3fdfc;
+      }
+    }
+    //
+    .close {
+      position: absolute;
+      right: 1.5em;
+      top: 1em;
+    }
+    //
+    .-t-img-read {
+      padding: 0.3em;
+      max-width: 70px;
+      img {
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}

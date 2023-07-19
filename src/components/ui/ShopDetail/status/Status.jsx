@@ -31,8 +31,12 @@ function Status({ product }) {
       </div>
 
       <div className="-t-s-btn-con w-full mt-8">
-        <button className="-t-buy-button capitalize w-full py-3">
-          add to cart
+        <button
+          disabled={product.status === 0}
+          className={"capitalize w-full py-3"}
+          style={{ cursor: product.status === 0 ? "not-allowed" : "pointer" }}
+        >
+          {product.status === 0 ? "out of stock" : "add to cart"}
         </button>
       </div>
     </div>

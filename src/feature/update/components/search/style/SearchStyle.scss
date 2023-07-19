@@ -6,7 +6,9 @@
   transition: 0.5s ease;
   position: fixed;
   left: 0;
- 
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
   //
   .-t-overlay {
     background-color: $bg-overlay;
@@ -25,6 +27,7 @@
     margin: 4em auto;
     overflow-y: scroll;
     border-radius: 0.5em;
+    justify-content: center;
 
     .-t-f-i-s-container {
       width: 100%;

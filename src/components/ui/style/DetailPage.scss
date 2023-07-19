@@ -5,7 +5,10 @@
   align-content: center;
   align-items: start;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  margin-top: 1.5em;
+  
+
   // all-content
   .-t-detail-product-content {
     padding: $t-px-lg;

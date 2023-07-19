@@ -11,15 +11,13 @@
     margin-bottom: $t-gap-sm;
   }
   .-t-qty-list {
-    margin-top: .3em;
+    margin-top: 0.3em;
     outline: none;
-    select{
-      border: .1px solid #ccc;
+    select {
+      border: 0.1px solid #ccc;
       outline: none;
       padding: $t-px-sm;
       border-radius: 5px;
     }
-  }
-  .-t-s-btn-con {
   }
 }

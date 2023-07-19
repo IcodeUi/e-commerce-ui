@@ -1,17 +1,17 @@
 import React from "react";
-import "../style/FP.scss";
+import "../../style/YouMayLike.scss";
 import { ProductData } from "../../../../constant/ProductData";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { Link } from "react-router-dom";
-function FP() {
+function New() {
   return (
-    <div className="-t-fp-container">
+    <div className="-t-u-container">
       <div className="-head mb-4">
-        <h2>Features Products</h2>
+        <h3 className="capitalize">you may also like</h3>
       </div>
       <div className="-t-grid-container">
-        {ProductData.slice(0,8).map((shop) => {
+        {ProductData.slice(0, 4).map((shop) => {
           return (
             <div className="-t-shop-card" key={shop.id}>
               <Link to={`/shop/${shop.id}`}>
@@ -43,4 +43,4 @@ function FP() {
   );
 }
 
-export default FP;
+export default New;

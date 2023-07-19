@@ -1,0 +1,38 @@
+.-t-contact-menu {
+  overflow: hidden;
+  .-t-con-modal {
+    max-width: 480px;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color:#FFFAEB;
+    border-radius: 0.8em;
+    flex-direction: column;
+    gap: 0.8em;
+    z-index: 86;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    //
+    .close {
+      position: absolute;
+      right: 0.8em;
+    }
+    .t-data-a {
+      display: flex;
+      align-items: start;
+      gap: 0.5em;
+      flex-direction: column;
+    }
+    .t-data-c {
+      flex-direction: column;
+      align-items: start;
+      display: flex;
+      width: 100%;
+      gap: 0.3em;
+      margin-top: 0.8em;
+    }
+  }
+}

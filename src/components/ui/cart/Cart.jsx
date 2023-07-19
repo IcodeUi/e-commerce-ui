@@ -2,7 +2,7 @@ import React from "react";
 import "../style/Cart.scss";
 import { Link } from "react-router-dom";
 import { AiFillCloseCircle } from "react-icons/ai";
-import not from "../../../assets/img/cartnotfound.png";
+import not from "../../../assets/img/graham-mansfield-wp9ggFHgsAI-unsplash.jpg";
 import { motion } from "framer-motion";
 import CartData from "./data/CartData";
 function Cart({ handleCart, cart }) {

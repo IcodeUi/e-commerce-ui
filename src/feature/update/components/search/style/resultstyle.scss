@@ -3,24 +3,34 @@
   height: 100%;
   margin: 0.3em auto;
   border-radius: 0.8px;
-  overflow-y: auto;
-
-  //
+  justify-content: center;
   .--grid {
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
     flex-direction: column;
+    overflow-y: auto;
+    height: 300px;
     width: 100%;
-    :hover{
-      background-color: #eaeaea;
+    background-color: #FFFAEB;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #d8c5ff;
+      border-radius: 3em;
+      transition: all 0.5s ease-out;
     }
-    .-t-link-g {
-      padding: .2999em;
+    .-t-data {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 10px;
+      padding: 0.5em .5em;
       width: 100%;
+      overflow-y:auto ;
+
+      &:hover {
+        background-color: rgb(243, 240, 231);
+        border-radius: 0.2em;
+        transition: 0.4s ease;
+        color: #000;
+      }
     }
   }
 }

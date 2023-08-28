@@ -8,7 +8,7 @@ function Hero() {
           <h1 className="one capitalize">
             shop anytime, <br /> anywhere
           </h1>
-          <p className="text-center capitalize">
+          <p className="text-center  capitalize">
             and enjoy buying our quality products.
           </p>
         </div>

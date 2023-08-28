@@ -37,10 +37,10 @@ function Footer() {
           <span className="capitalize text-sm gap-2 flex items-center ">
             <small className="">powered by </small>
             <a
-              href="https://www.icondethisnoe.com"
+              href="https://www.falconlook.com"
               className=" font-bold text-[#D0A4E3]"
             >
-              iCodethisnow.com
+              falconlook.com
             </a>
           </span>
         </div>

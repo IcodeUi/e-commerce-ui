@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 import CartData from "./data/CartData";
 function Cart({ handleCart, cart }) {
   return (
-    <div class="--t-cart-container">
+    <div class="--t-cart-container w-full">
       <div className="-t-overlay" onClick={handleCart}></div>
       <motion.div
-        className="--t-cart-content"
+        className="--t-cart-content w-full"
         initial={{
           opacity: 0,
           x: "100%",
@@ -35,8 +35,8 @@ function Cart({ handleCart, cart }) {
             shop now
           </Link>
         </div> */}
-        <CartData />
-        <div className="-t-footer-checkout">
+        {/* <CartData /> */}
+        <div className="-t-footer-checkout absolute bottom-5 w-full mx-auto justify-center items-center flex">
           <p>checkout</p>
         </div>
       </motion.div>

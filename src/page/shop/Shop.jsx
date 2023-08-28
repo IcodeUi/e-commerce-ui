@@ -1,9 +1,12 @@
 import React from "react";
 import ShopList from "../../components/ui/shop/ShopList";
+// import HeroShop from "../../components/ui/shop/heroShop/HeroShop";
 function Shop() {
   return (
     <div className="">
-      <ShopList />
+      <div className='mt-3'>
+        <ShopList />
+      </div>
     </div>
   );
 }

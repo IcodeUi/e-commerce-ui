@@ -19,22 +19,21 @@ function Nav() {
     setCart(!cart);
   };
 
-useEffect(() => {
-  const handleOpen = () => {
-    if (window.scrollY >= 50) {
-      setOpen(true);
-    } else {
-      setOpen(false);
-    }
-  };
+  useEffect(() => {
+    const handleOpen = () => {
+      if (window.scrollY > 0) {
+        setOpen(true);
+      } else {
+        setOpen(false);
+      }
+    };
 
-  window.addEventListener("scroll", handleOpen);
+    window.addEventListener("scroll", handleOpen);
 
-  return () => {
-    window.removeEventListener("scroll", handleOpen);
-  };
-}, []);
-
+    return () => {
+      window.removeEventListener("scroll", handleOpen);
+    };
+  }, []);
 
   return (
     <>

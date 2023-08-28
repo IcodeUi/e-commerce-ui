@@ -1,8 +1,13 @@
 @import '../../style//Variable.scss';
+@import '../../style//mixins.scss';
 .--t-max-main-chill {
   margin: 0 auto;
   padding: $t-br-lg;
   max-width: $chill-max-w;
   width: 100%;
   flex-grow: 1;
+  @include xxl{
+  // padding: $t-br-sm;
+  }
+
 }

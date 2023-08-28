@@ -1,4 +1,5 @@
 @import "../../../style//Variable.scss";
+@import "../../../style//mixins.scss";
 .--t-header- {
   top: 0;
   position: sticky;
@@ -20,6 +21,11 @@
     margin: 0 auto;
     width: 100%;
     padding: 0 $t-px-sm;
+    // @include xxl {
+    // }
+    @include md {
+      padding: 0 $t-px-sm;
+    }
     .--t-menu {
       ul {
         gap: $t-gap-lg;
@@ -31,7 +37,7 @@
         }
         li {
           list-style-type: none;
-          a{
+          a {
             font-weight: 500;
           }
         }

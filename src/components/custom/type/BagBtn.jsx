@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/BagBtn.scss";
 import { BsHandbag } from "react-icons/bs";
+import PropTypes from "prop-types";
 
 function BagBtn({ handleCart }) {
   const QTY = 0;
@@ -11,5 +12,7 @@ function BagBtn({ handleCart }) {
     </div>
   );
 }
-
+BagBtn.propTypes = {
+  handleCart: PropTypes.func.isRequired,
+};
 export default BagBtn;

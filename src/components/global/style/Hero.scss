@@ -4,7 +4,6 @@
   overflow: 0 auto;
   position: relative;
   z-index: 98;
-  // backdrop-filter: blur(15px);
   .--t-content {
     padding: 1.5rem $t-px-sm;
     display: flex;
@@ -16,7 +15,6 @@
     flex-direction: column;
     overflow: hidden;
     gap: $t-gap-md;
-    // backdrop-filter: blur(8px);
     .-t-shop-btn {
       padding: $t-px-md 2em;
       display: inline-block;

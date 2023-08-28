@@ -1,8 +1,9 @@
 @import "../../../style//Variable.scss";
+@import "../../../style//mixins.scss";
 .-t-shop-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
   margin: 2.5em 0;
   overflow: hidden;
@@ -32,14 +33,13 @@
 
         img {
           width: 100%;
-          height: auto;
+          height: 100%;
           border-radius: 8px 8px 0 0;
           object-fit: cover;
           position: absolute;
           top: 0;
           left: 0;
-          width: 100%;
-          height: 100%;
+      
         }
       }
       .-t-body {

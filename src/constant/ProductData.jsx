@@ -34,7 +34,7 @@ export const ProductData = [
     price: "300",
     img: im3,
     status: 0,
-    desc: "the best nice ever",
+    desc: "the best battery ever",
   },
   {
     id: 4,

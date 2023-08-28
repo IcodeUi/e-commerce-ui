@@ -22,11 +22,13 @@
     width: 100%;
     right: 0;
     height: 100%;
+    top: 0;
     margin: 0 auto;
     overflow-y: scroll;
     background-image: $bg-cart-;
     transition: 0.5s ease;
     padding: 10px;
+    z-index: 1000;
     //
     .-t-close {
       position: absolute;

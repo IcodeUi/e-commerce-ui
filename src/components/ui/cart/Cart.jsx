@@ -35,9 +35,9 @@ function Cart({ handleCart, cart }) {
             shop now
           </Link>
         </div> */}
-        {/* <CartData /> */}
-        <div className="-t-footer-checkout absolute bottom-5 w-full mx-auto justify-center items-center flex">
-          <p>checkout</p>
+        <CartData />
+        <div className="-t-footer-checkout  absolute bottom-5 w-full mx-auto justify-center items-center flex">
+          <button className='w-[90%] capitalize py-3 rounded-md'>checkout</button>
         </div>
       </motion.div>
     </div>

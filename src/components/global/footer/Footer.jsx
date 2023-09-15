@@ -38,9 +38,9 @@ function Footer() {
             <small className="">powered by </small>
             <a
               href="https://www.falconlook.com"
-              className=" font-bold text-[#D0A4E3]"
+              className=" font-bold capitalize text-[#D0A4E3]"
             >
-              falconlook.com
+              codifyDesign.com
             </a>
           </span>
         </div>

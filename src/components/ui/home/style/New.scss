@@ -1,4 +1,5 @@
 @import "../../../../style//Variable.scss";
+@import "../../../../style//mixins.scss";
 .-t-new-container {
   display: flex;
   flex-direction: column;
@@ -8,9 +9,15 @@
   overflow: hidden;
   .-t-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
     grid-gap: 20px;
     width: 100%;
+    @include md {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    @include lg {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
     //card
     .-t-shop-card {
       border: 1px solid #e4e4e4;

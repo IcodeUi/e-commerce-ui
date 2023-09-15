@@ -13,7 +13,7 @@ function ShopList() {
       <div className="-t-grid-container">
         {ProductData.map((shop) => {
           return (
-            <div className="-t-shop-card" key={shop.id}>
+            <div className="-t-shop-card single-card" key={shop.id}>
               <Link to={`/shop/${shop.id}`}>
                 <div className="-t-img-box">
                   <LazyLoadImage
